@@ -8,15 +8,15 @@
 /**
  * This function Converts Fehrenheit to Celsius.
  */
-function calculate () {
+function calculate() {
   // input
   const fehrenheit = parseInt(document.getElementById('fehrenheit').value)
 
 
   // process
-  const volume = (°F − 32) × 5/9 = °C
+  const celsius = (fehrenheit - 32) * 5/9 
 
 
   // output
-  document.getElementById('area').innerHTML = 'The Celsius temperature is: ' +  Celsius temperature.toFixed(2) + ' °C'
+  document.getElementById('area').innerHTML = 'The Celsius temperature is: ' +  celsius.toFixed(2) + ' °C'
 }
