@@ -10,10 +10,10 @@
  */
 function calculate() {
   // input
-  const fehrenheit = parseInt(document.getElementById('fehrenheit').value)
+  const fahrenheit = parseInt(document.getElementById('fahrenheit').value)
 
   // process
-  const celsius = (fehrenheit - 32) * 5/9 
+  const celsius = (fahrenheit - 32) * 5/9 
 
   // output
   document.getElementById('area').innerHTML = 'The Celsius temperature is: ' +  celsius.toFixed(2) + ' °C'
